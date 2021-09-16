@@ -53,6 +53,18 @@
         android:text="2 min"
         />
 
+    <ImageView
+        android:id="@+id/image_globe"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        app:tint="@color/lightGray"
+        app:layout_constraintBottom_toBottomOf="@+id/text_view_time"
+        app:layout_constraintStart_toEndOf="@id/text_view_time"
+        app:layout_constraintTop_toTopOf="@id/text_view_time"
+        app:srcCompat="@drawable/ic_baseline_language_24"
+        />
+
     <TextView
         android:id="@+id/text_view_content"
         android:layout_width="0dp"
@@ -67,5 +79,16 @@
         android:text="A nível organizacional, o fenômeno da Internet não pode mais se dissociar dos índices pretendidos. A certificação de metodologias que nos auxiliam a lidar com a expansão dos mercados mundiais obstaculiza a apreciação da importância do sistema de participação geral. Podemos já vislumbrar o modo pelo qual a percepção das dificuldades nos obriga à análise do processo de comunicação como um todo."
         />
 
+    <ImageView
+        android:id="@+id/image_view_post"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_view_content"
+        app:layout_constraintDimensionRatio="16:9"
+        tools:srcCompat="@tools:sample/backgrounds/scenic"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
