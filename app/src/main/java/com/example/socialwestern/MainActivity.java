@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+//         <color name="colorPrimary">#4267B2</color>
+//    <color name="colorPrimaryDark">#2F477A</color>
 
         TabLayout tabLayout = findViewById(R.id.top_nav);
         tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.ic_baseline_home));
